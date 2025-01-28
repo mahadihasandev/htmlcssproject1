@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    position: relative;
+    padding: 30px 0px;
+    
+    z-index: 1;
+    background: #F8FDFE;
+}
+.container{
+    
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+ 
+.logo-part{
+    width: 24%;
+}
+
+.menu-part{
+    display: flex;
+    
+    width: 65%;
+}
+.button-part{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav .menu-part ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    list-style: none;
+  
+}
+
+
+nav .menu-part ul li a{
+    position: relative;
+    text-decoration:none;
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+}
+
+nav .menu-part ul li a:hover{
+    color: #6A55EA;
+}
+
+.sub-menu-part{
+    margin: 0 0;
+    padding: 10px 10px;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 5px;
+    
+    color: #29313D;
+    background: #6955eac7;
+    border:solid #0000008b;
+    border-radius: 20px;
+    top: 35px;
+    visibility: hidden;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+nav .menu-part ul li a:hover .sub-menu-part{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-part li{
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 5px;
+}
+
+nav .button-part a{
+    
+    padding:14px 28px;
+    border: solid black;
+    border-radius: 18px;
+    background: #8454F5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: "Nunito", serif;
+    transition: 0.5s;
+}
+nav .button-part a:hover{
+    background: transparent;
+    color: #29313D;
+}
+
+nav .menu-part ul li a i{
+    padding: 4px;
+}
+
+.banner{
+    position: relative;
+    padding-top: 143px;
+    width: 100%;
+    z-index: 0;
+    background: #F8FDFE;
+    
+    
+}
+
+.banner .bannerMask{
+    top: -110px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background: #F8FDFE;
+
+}
+.banner .bannerMask img{
+    
+    width: 100%;
+    
+}
+
+ .bannerLeft{
+    position: absolute;
+    left:-300px;
+    top: 20px;
+    overflow: hidden;
+    animation:bannerleft 0.8s forwards ;
+}
+
+@keyframes bannerleft{
+    form{
+        left: -300px;
+        overflow: hidden;
+    }
+    to{
+        left: 0px;
+        overflow: hidden;
+    }
+}
+
+
+.bannerRight{
+    position: absolute;
+    overflow: hidden;
+    right:-40%;
+    top: 20px;
+    
+    
+    animation: bannerright 0.8s forwards;
+}
+
+@keyframes bannerright{
+    form{
+        overflow: hidden;
+        right: -40%;
+        
+    }
+    to{ overflow: hidden;
+        right: 0;
+        
+    }
+}
+
+
+.container1{
+    position: absolute;
+    left: 35%;
+    top: 136px;
+    height: 390px;
+    width: 464px;
+    
+}
+.bannerTop{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    scale: 0;
+    animation: bannertop 0.8s forwards;
+}
+@keyframes bannertop{
+    form{
+        scale: 0;
+    }to{
+        scale: 1;
+    }
+}
+.bannerBottom{
+    position: absolute;
+    left: 56%;
+    bottom: 48%;
+    scale: 0;
+    transform: translateY(765%);
+    animation: bannertop 0.8s forwards;
+}
+@keyframes bannertop{
+    form{
+        scale: 0;
+    }to{
+        scale: 1;
+    }
+}
+.container{
+    
+}
+.container1 h1{
+    
+    font-size: 64px;
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    height: 174px;
+    width: 464px;
+    font-family: "Open Sans", serif;
+}
+
+.container1 p{
+    height: 72px;
+    width: 443px;
+    font-family: "Nunito", serif;
+}
+
+.banner .button-part a{
+    position: absolute;
+    padding:14px 28px;
+    border: solid black;
+    border-radius: 18px;
+    background: #8454F5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: "Nunito", serif;
+    transition: 0.5s;
+    left: 35%;
+    top: 430px;
+    z-index: 1;
+}
+.banner .button-part a:hover{
+    background: transparent;
+    color: #29313D;
+}
+
