@@ -1,3 +1,5 @@
+
+/* Common css start */
 *{
     padding: 0px;
     margin: 0px;
@@ -11,6 +13,16 @@ ul{
     list-style: none;
 }
 
+.container{
+    
+    width: 1410px;
+    margin: 0 auto;
+}
+
+/* Common Css End */
+
+/* Nav part Start */
+
 nav{
     position: relative;
     padding: 30px 0px;
@@ -18,11 +30,7 @@ nav{
     z-index: 1;
     background: #F8FDFE;
 }
-.container{
-    
-    width: 1410px;
-    margin: 0 auto;
-}
+
 
 .box{
     display: flex;
@@ -117,84 +125,80 @@ nav .menu-part ul li a i{
     padding: 4px;
 }
 
+/* Nav part End */
+
+/* Banner part start */
 .banner{
     position: relative;
-    padding-top: 143px;
-    width: 100%;
+    padding: 350px 0px;
+    
     z-index: 0;
     background: #F8FDFE;
-    
-    
+
 }
 
 .banner .bannerMask{
-    top: -110px;
-    left: 0;
+    top: -200px;
+    left: -88px;
     position: absolute;
     width: 100%;
     background: #F8FDFE;
 
 }
-.banner .bannerMask img{
-    
-    width: 100%;
-    
-}
+
 
  .bannerLeft{
     position: absolute;
-    left:-300px;
+    left:0px;
     top: 20px;
     overflow: hidden;
     animation:bannerleft 0.8s forwards ;
+    overflow-x: hidden;
+    scale: 0;
 }
 
 @keyframes bannerleft{
     form{
-        left: -300px;
+        left: 0px;
         overflow: hidden;
     }
     to{
         left: 0px;
-        overflow: hidden;
+        scale: 1;       
     }
 }
 
-
 .bannerRight{
     position: absolute;
-    overflow: hidden;
-    right:-40%;
+    scale: 0;
+    right:0;
     top: 20px;
-    
-    
+
     animation: bannerright 0.8s forwards;
 }
 
 @keyframes bannerright{
     form{
-        overflow: hidden;
-        right: -40%;
         
+        right: 0;        
     }
-    to{ overflow: hidden;
+    to{ 
         right: 0;
-        
+        scale: 1;    
     }
 }
 
-
-.container1{
+.banner .container{
     position: absolute;
     left: 35%;
     top: 136px;
     height: 390px;
     width: 464px;
-    
 }
+
 .bannerTop{
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 33%;
     scale: 0;
     animation: bannertop 0.8s forwards;
@@ -211,7 +215,7 @@ nav .menu-part ul li a i{
     left: 56%;
     bottom: 48%;
     scale: 0;
-    transform: translateY(765%);
+    transform: translateY(300%);
     animation: bannertop 0.8s forwards;
 }
 @keyframes bannertop{
@@ -221,10 +225,8 @@ nav .menu-part ul li a i{
         scale: 1;
     }
 }
-.container{
-    
-}
-.container1 h1{
+
+.banner .container h1{
     
     font-size: 64px;
     font-family: "Open Sans", serif;
@@ -234,7 +236,7 @@ nav .menu-part ul li a i{
     font-family: "Open Sans", serif;
 }
 
-.container1 p{
+.banner .container p{
     height: 72px;
     width: 443px;
     font-family: "Nunito", serif;
@@ -260,4 +262,9 @@ nav .menu-part ul li a i{
     background: transparent;
     color: #29313D;
 }
+
+/* Banner part end */
+
+/* Service part Start */
+
 
