@@ -76,16 +76,16 @@ ul{
 
 /* Common Css End */
 
-/* Nav part Start */
+/*=============================
+ Nav part start
+ ==============================*/
 
 nav{
     position: relative;
-    padding: 30px 0px;
-    
+    padding: 30px 0px;    
     z-index: 1;
     background: #F8FDFE;
 }
-
 
 nav .box{
     display: flex;
@@ -104,16 +104,14 @@ nav .box{
 .button-part{
     width: 15%;
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
 }
 
 nav .menu-part ul{
     display: flex;
     justify-content: center;
     column-gap: 48px;
-    list-style: none;
-  
+    list-style: none; 
 }
 
 
@@ -180,12 +178,16 @@ nav .menu-part ul li a i{
     padding: 4px;
 }
 
-/* Nav part End */
+  /*=============================
+ Nav part end
+ ==============================*/
 
-/* Banner part start */
+  /*=============================
+ Banner part start
+ ==============================*/
 .banner{
     position: relative;
-    padding: 350px 0px;
+    padding: 260px 0px;
     
     z-index: 0;
     background: #F8FDFE;
@@ -320,7 +322,9 @@ nav .menu-part ul li a i{
     color: #29313D;
 }
 
-/* Banner part end */
+/*=============================
+ Banner part end
+ ==============================*/
 
 /*=============================
  Service part Start 
@@ -508,4 +512,55 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
  .launch .right .card{
     background: white;
  }
+
+/*=============================
+ Browse part end
+ ==============================*/
+
+ /*=============================
+ Showcase part start
+ ==============================*/
+.showcase{
+    background: #F8FDFE80;
+}
+
+.showcase .common-title h2{
+    padding-top: 100px;
+}
+ .showcase .card p{
+    padding-left: 651px;
+    height: 36px;
+    width: 379px;
+ }
+
+ .showcase .card{
+    height: 0;
+    width: 0;
+    background: #F8FDFE80;
+ }
+
+ .showcase .box{
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    column-gap: 30px;
+ }
+
+ .showcaseimg img{
+    width: 330px;
+    height: 715px;
+    border-radius: 20px;
+    border:solid rgb(220, 220, 220);
+    border-width: 1px;
+ }
+
+ .indicator{
+   padding-left: 800px;
+   padding-bottom: 100px;
+ }
+
+
+  /*=============================
+ Showcase part end
+ ==============================*/
   
