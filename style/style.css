@@ -335,7 +335,7 @@ nav .menu-part ul li a i{
 }
 
 .service{
-    padding: 100px 0;
+    padding: 196px 0;
 }
  .service .box{
     margin-top:60px ;
@@ -393,7 +393,7 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
  ==============================*/
 
  /*=============================
- Service part start
+ launch part start
  ==============================*/
 
  .launch .left{
@@ -406,7 +406,7 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
     padding-left: 60px;
  }
 
- .launchbannerone{
+ .launch .launchbannerone{
     width: 540px;
     height: 620px;
     background-image: url('../image/lounchbanner1.jpg');
@@ -416,7 +416,7 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
     border-radius: 50px;
  }
 
- .launchbannertwo{
+ .launch .launchbannertwo{
     width: 304px;
     height: 620px;
     background-image: url('../image/launchbannertwo.jpg');
@@ -446,3 +446,66 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
     background: white;
  }
     
+ /*=============================
+ launch part end
+ ==============================*/
+
+  /*=============================
+ browse part start
+ ==============================*/
+ .browse{
+    margin: 196px 0;
+ }
+ 
+ .browse .right{
+    width: 40%;
+    
+ }
+
+ .browse .left{
+    width: 60%;
+    position: relative;
+ }
+
+ .browse .browsebannerone{
+    width: 540px;
+    height: 620px;
+    background-image: url('../image/browsebannertbottom.jpg');
+    position: absolute;
+    background-size: cover;
+    border: thin;
+    border-radius: 50px;
+ }
+
+ .browse .browsebannertwo{
+    width: 304px;
+    height: 620px;
+    background-image: url('../image/browsebannertop.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 75%;
+    border:solid rgb(220, 220, 220);
+    border-width: 1px;
+    border-radius: 10px;
+    transform: translate(-55%,-4%);
+ }
+
+ .browse .common-title h2{
+    text-align: left;
+    width: 672px;
+    height: 134px;
+    padding-bottom: 20px;
+ }
+
+ .launchcard{
+    height: 72px;
+    width: 443px;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .launch .right .card{
+    background: white;
+ }
+  
