@@ -2,12 +2,13 @@
 /* Common css start */
 *{
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 a{
     text-decoration: none;
+    color: #29313D;
+
 }
 
 ul{
@@ -15,13 +16,63 @@ ul{
 }
 
 .container{
-    
     width: 1410px;
     margin: 0 auto;
 }
 .box{
     display: flex;
 }
+
+.common-title h2{
+    font-size: 48px;
+    font-family: "Poppins", serif;
+    font-weight:600 ;
+    color: #29313D;
+    text-align: center;}
+
+    .card{
+        background: #FDFDFD;
+        width: 330px;
+        height: 290px;
+        padding: 30px 20px;
+        transition: 0.4s;
+    }
+
+    .card p{
+        width: 290px;
+        height: 72px; 
+        font-family:"Nunito", serif;
+        font-size: 18px;
+        font-weight: 400px;
+        padding-bottom: 24px;
+        line-height: 32px;
+        color: #29313D;
+          
+    }
+
+    .card img{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    
+    .card h3{
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-size: 28px;
+        padding-top: 24px;
+        padding-bottom: 14px;
+        line-height: 39.2px;
+        color: #29313D;
+    }
+    .card a{
+        font-family:"Nunito", serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #29313D;
+        line-height: 22.4px;
+       
+    }
 
 /* Common Css End */
 
@@ -319,10 +370,7 @@ nav .menu-part ul li a i{
     font-weight: 400px;
     padding-bottom: 24px;
     line-height: 32px;
-    color: #29313D;
-    
-
-    
+    color: #29313D;   
 }
 .service .card a{
     font-family:"Nunito", serif;
@@ -339,4 +387,62 @@ nav .menu-part ul li a i{
 -moz-box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 }
+
+/*=============================
+ Service part End
+ ==============================*/
+
+ /*=============================
+ Service part start
+ ==============================*/
+
+ .launch .left{
+    width: 40%;
+    position: relative;
+ }
+
+ .launch .right{
+    width: 60%;
+    padding-left: 60px;
+ }
+
+ .launchbannerone{
+    width: 540px;
+    height: 620px;
+    background-image: url('../image/lounchbanner1.jpg');
+    position: absolute;
+    background-size: cover;
+    border: thin;
+    border-radius: 50px;
+ }
+
+ .launchbannertwo{
+    width: 304px;
+    height: 620px;
+    background-image: url('../image/launchbannertwo.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-55%,-4%);
+ }
+
+ .launch .common-title h2{
+    text-align: left;
+    width: 672px;
+    height: 134px;
+    padding-bottom: 20px;
+ }
+
+ .launchcard{
+    height: 72px;
+    width: 443px;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .launch .right .card{
+    background: white;
+ }
     
