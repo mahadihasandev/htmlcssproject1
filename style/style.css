@@ -714,7 +714,7 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
     justify-content: center;
   }
   .trailbox{
-    margin: 50px;
+    margin-top: 50px;
     background: #e6f7fb;
     height: 640px;
     width: 450px;
