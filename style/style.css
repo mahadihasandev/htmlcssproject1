@@ -808,3 +808,143 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 /*=============================
  Trail part end
  ==============================*/
+
+ /*=============================
+ Recent part Start
+ ==============================*/
+.recent{
+    padding-bottom: 120px;
+}
+ .recent .box{
+    margin-top: 500px;
+ }
+
+ .subrecentimg img{
+    height: 330px;
+    width: 342px;
+ }
+
+ .subrecentbox{
+    display: flex;
+    height: 342px;
+    padding-bottom: 64px;
+ }
+ .subrecentbox2{
+    display: flex;
+ }
+ .subrecenttext h1{
+    font-size: 36px;
+    line-height: 57px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    padding-bottom: 28px;
+    padding-top: 20px;
+    
+ }
+
+ .recentleft .common-title h2{
+    text-align: start;
+    padding-bottom: 64px;
+    padding-left: 30px;
+ }
+
+ .subrecentimg2 img{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+ }
+
+ .recentleft{
+    height: 961px;
+    width: 912px;
+ }
+
+ .subrecenttext2 h3{
+    font-family: "Poppins", serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 10px;
+ }
+ .subrecenttext2 p{
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    padding-bottom: 32px;
+    
+ }
+
+ .subrecenttext h4{
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    padding-bottom: 30px;
+    width: 443px;
+ }
+.recentright{
+    padding-left: 168px;
+}
+ .recentrightbox1{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 68px;
+ }
+
+ .recentrightbox1 h2{
+    font-size: 28px;
+    margin-right: 36px;
+    font-family: "Open Sans", serif;
+ }
+
+ .recentrighticon{
+    width: 24px;
+    height: 24px;
+    padding:20px;
+    background: #6A55EA1A;
+    border-radius: 50px;
+    text-align: center;
+    
+    transition: 0.4s;
+ }
+
+ .recentrighticon:hover{
+    background: #6A55EA;
+ }
+
+ .recentrighticon i{
+    padding-top: 4px;
+ }
+
+ .hashtag h3{
+    font-weight: 400;
+    margin: 20px 0 34px 0;
+    font-size: 28px;
+    font-family: "Poppins", serif;
+ }
+ .hashtag i{
+    width: 36px;
+    height: 36px;
+    background-image: linear-gradient(#FAAC54, #A934AE);
+    background-clip: text;
+    color: transparent;
+ }
+
+ .recentrightbox2{
+    display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+ }
+
+ .instaimg img{
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    
+ }
+/*=============================
+ Recent part end
+ ==============================*/
