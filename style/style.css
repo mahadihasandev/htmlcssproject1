@@ -948,3 +948,54 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 /*=============================
  Recent part end
  ==============================*/
+
+ /*=============================
+ Talk part start
+ ==============================*/
+
+ .talk{
+    background: #F8FDFE;
+    padding: 120px 0;
+ }
+
+ .talkbox{
+    height: 436px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: #6A55EA;
+    border-radius: 80px;
+    padding: 0 120px;
+ }
+
+ .talkbutton{
+    height: 64px;
+    width: 153px;
+    background: #F8FDFE;
+    border-radius: 20px;
+    text-align: center;
+    color: #6A55EA;
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid #FDFDFD;
+    transition: 0.5s;
+ }
+
+ .talkbutton:hover{
+    background: #6A55EA;
+    color: white;
+ }
+
+ .talkbox h3{
+    height: 156px;
+    width: 529px;
+    font-size: 56px;
+    font-weight: 600;
+    color: #FDFDFD;
+    font-family: "Poppins", serif;
+ }
+
+ /*=============================
+ Recent part end
+ ==============================*/
