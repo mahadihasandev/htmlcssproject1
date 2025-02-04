@@ -648,13 +648,15 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
     padding-top: 120px;
     
 }
-
+.common-title{
+    text-align: center;
+}
 .trail .common-title p{
     padding: 30px;
     font-family: "Nunito", serif;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 39%;
+    
 }
 
 .switch {
@@ -726,14 +728,19 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 
   .trailbox:hover{
     background-color: #FDFDFD;
+    -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
   }
-
   .trailtitle{
+    text-align: center;
+  }
+  .trailtitle h4{
     font-size: 20px;
     font-weight: 500;
     font-family: "Poppins", serif;
     padding-top: 28px;
-    padding-left: 197px;
+    
     padding-bottom: 10px;
     color: #29313D;
   }
@@ -998,4 +1005,81 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 
  /*=============================
  Recent part end
+ ==============================*/
+
+/*=============================
+ Footer part start
+ ==============================*/
+
+ .footer{
+    padding-top: 120px;
+    
+ }
+
+ .footer .box{
+    justify-content: space-between;
+ }
+
+ .footerstartlogo img{
+    padding-bottom: 44px;
+ }
+
+ .footerstarttext h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Nunito", serif;
+    height: 96px;
+    width: 449px;
+    color: #29313D;
+    
+ }
+ 
+ .feature h2{
+    padding-bottom: 48px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 24px;
+ }
+ .feature p{
+    padding-bottom: 30px;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #29313D;
+    
+ }
+
+ .copyright-box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 57px;
+    padding-top: 58px;
+ }
+
+ .copyrightright {
+    display: flex;
+    
+
+ }
+ .copyrightright p{
+    font-family: "Nunito", serif;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+ }
+
+ .copyrightleft {
+    width: 50%;
+ }
+ .copyrightleft h3{
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+ }
+ 
+/*=============================
+ Footer part end
  ==============================*/
